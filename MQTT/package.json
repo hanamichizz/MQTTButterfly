@@ -11,13 +11,20 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "amqp": "^0.2.7",
+    "amqplib": "^0.4.2",
+    "chai": "^4.3.4",
     "core-js": "^3.6.5",
+    "flespi-io-js": "github:flespi-software/flespi-io-js",
+    "mosca": "^0.6.0",
+    "mqtt": "^4.2.6",
     "quasar": "^1.0.0",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",
     "babel-eslint": "^10.0.1",
+    "beebotte": "^1.7.0",
     "eslint": "^7.21.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.14.0",

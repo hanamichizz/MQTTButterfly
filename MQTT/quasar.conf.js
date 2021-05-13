@@ -95,12 +95,48 @@ module.exports = function (/* ctx */) {
       // (like functional components as one of the examples),
       // you can manually specify Quasar components/directives to be available everywhere:
       //
-      // components: [],
-      // directives: [],
-
-      // Quasar plugins
+      components: [
+        'QLayout',
+        'QHeader',
+        'QFooter',
+        'QDrawer',
+        'QPageContainer',
+        'QPage',
+        'QToolbar',
+        'QToolbarTitle',
+        'QDialog',
+        'QList',
+        'QItem',
+        'QItemLabel',
+        'QItemSection',
+        'QSeparator',
+        'QBtn',
+        'QIcon',
+        'QInput',
+        'QCheckbox',
+        'QToggle',
+        'QSelect',
+        'QCard',
+        'QCardSection',
+        'QCardActions',
+        'QExpansionItem',
+        'QTooltip',
+        'QBtnToggle',
+        'QMenu',
+        'QChip',
+        'QInnerLoading',
+        'QSpinnerGears'
+      ],
+      directives: [
+        'Ripple',
+        'ClosePopup',
+        'TouchSwipe'
+      ],
       plugins: [
-        'Notify'
+        'Notify',
+        'Dialog',
+        'LocalStorage',
+        'SessionStorage'
       ]
     },
 
